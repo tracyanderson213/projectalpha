@@ -1,6 +1,7 @@
 {
 	"name": "PL_CopyAndDeleteFile",
 	"properties": {
+		"description": "Copies input file to Output File and then deletes the original file from the input directory",
 		"activities": [
 			{
 				"name": "Verify File Exists",
