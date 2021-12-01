@@ -18,7 +18,7 @@
 				}
 			},
 			{
-				"name": "Get Metadata1",
+				"name": "Get File Metadata",
 				"type": "GetMetadata",
 				"dependsOn": [
 					{
@@ -55,11 +55,11 @@
 				}
 			},
 			{
-				"name": "If Condition1",
+				"name": "If file Exists",
 				"type": "IfCondition",
 				"dependsOn": [
 					{
-						"activity": "Get Metadata1",
+						"activity": "Get File Metadata",
 						"dependencyConditions": [
 							"Succeeded"
 						]
