@@ -1,0 +1,28 @@
+{
+	"name": "DS_population_raw_gz",
+	"properties": {
+		"description": "sect #22",
+		"linkedServiceName": {
+			"referenceName": "LS_AzureBlobStorage_Dev",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "ECDC"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "population_by_age.tsv.gz",
+				"container": "population"
+			},
+			"columnDelimiter": "\t",
+			"compressionCodec": "gzip",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
