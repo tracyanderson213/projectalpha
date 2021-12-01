@@ -68,7 +68,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"expression": {
-						"value": "@equals(activity('activity('Get File Metadata').output').output.exists,true)",
+						"value": "@equals(activity('Get File Metadata').output.exists,true)",
 						"type": "Expression"
 					},
 					"ifFalseActivities": [
