@@ -85,7 +85,7 @@
 					],
 					"ifTrueActivities": [
 						{
-							"name": "Copy data1",
+							"name": "Copy Input to Output",
 							"type": "Copy",
 							"dependsOn": [],
 							"policy": {
@@ -143,11 +143,11 @@
 							]
 						},
 						{
-							"name": "Delete1",
+							"name": "Delete Processed File",
 							"type": "Delete",
 							"dependsOn": [
 								{
-									"activity": "Copy data1",
+									"activity": "Copy Input to Output",
 									"dependencyConditions": [
 										"Succeeded"
 									]
