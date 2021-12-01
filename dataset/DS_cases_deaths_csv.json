@@ -1,5 +1,5 @@
 {
-	"name": "DelimitedText1",
+	"name": "DS_cases_deaths_csv",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "LS_AzureDataLakeStorage_Dev",
