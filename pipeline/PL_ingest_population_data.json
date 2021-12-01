@@ -4,7 +4,7 @@
 		"description": "sect #22",
 		"activities": [
 			{
-				"name": "Validation1",
+				"name": "Check File Exists",
 				"type": "Validation",
 				"dependsOn": [],
 				"userProperties": [],
@@ -13,8 +13,8 @@
 						"referenceName": "DS_population_raw_gz",
 						"type": "DatasetReference"
 					},
-					"timeout": "0.00:10:00",
-					"sleep": 10
+					"timeout": "1.00:00:00",
+					"sleep": 600
 				}
 			},
 			{
@@ -22,7 +22,7 @@
 				"type": "GetMetadata",
 				"dependsOn": [
 					{
-						"activity": "Validation1",
+						"activity": "Check File Exists",
 						"dependencyConditions": [
 							"Succeeded"
 						]
