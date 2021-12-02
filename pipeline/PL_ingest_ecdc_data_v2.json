@@ -50,13 +50,25 @@
 				"inputs": [
 					{
 						"referenceName": "DS_ecdc_raw_csv_http",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"relativeURL": {
+								"value": "@pipeline().parameters.sourceRelativeURL",
+								"type": "Expression"
+							}
+						}
 					}
 				],
 				"outputs": [
 					{
 						"referenceName": "DS_ecdc_raw_csv_dl",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"fileName": {
+								"value": "@pipeline().parameters.sinkFileName",
+								"type": "Expression"
+							}
+						}
 					}
 				]
 			}
