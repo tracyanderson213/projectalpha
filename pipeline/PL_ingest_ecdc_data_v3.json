@@ -49,11 +49,15 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "DS_ecdc_raw_csv_http",
+						"referenceName": "DS_ecdc_raw_csv_http_v3",
 						"type": "DatasetReference",
 						"parameters": {
 							"relativeURL": {
 								"value": "@pipeline().parameters.sourceRelativeURL",
+								"type": "Expression"
+							},
+							"baseURL": {
+								"value": "@pipeline().parameters.sourceBaseURL",
 								"type": "Expression"
 							}
 						}
@@ -81,6 +85,9 @@
 			"sinkFileName": {
 				"type": "string",
 				"defaultValue": "No Value"
+			},
+			"sourceBaseURL": {
+				"type": "string"
 			}
 		},
 		"folder": {
