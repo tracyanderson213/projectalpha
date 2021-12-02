@@ -1,7 +1,7 @@
 {
 	"name": "PL_ingest_ecdc_data_v2",
 	"properties": {
-		"description": "Uses passed parameters from a trigger to   process a specific file",
+		"description": "Uses passed parameters from a Scheduled trigger to   process a specific file",
 		"activities": [
 			{
 				"name": "Copy ECDC Data",
