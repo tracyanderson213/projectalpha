@@ -1,5 +1,5 @@
 {
-	"name": "PL_ingest_cases_deaths",
+	"name": "PL_ingest_cases_deaths_v1",
 	"properties": {
 		"description": "Uses a variable in Copy data to process a specific file",
 		"activities": [
