@@ -1,7 +1,7 @@
 {
 	"name": "PL_ingest_ecdc_data_v3",
 	"properties": {
-		"description": "Uses fileList json Lookup process a multiple files",
+		"description": "Uses JSON file List Lookup to process a multiple files.",
 		"activities": [
 			{
 				"name": "Lookup ECDC File List",
