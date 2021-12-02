@@ -30,7 +30,8 @@
 					"dataset": {
 						"referenceName": "DS_ecdc_file_list",
 						"type": "DatasetReference"
-					}
+					},
+					"firstRowOnly": false
 				}
 			},
 			{
