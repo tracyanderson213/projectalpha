@@ -129,19 +129,6 @@
 				}
 			}
 		],
-		"parameters": {
-			"sourceRelativeURL": {
-				"type": "string",
-				"defaultValue": "No Value"
-			},
-			"sinkFileName": {
-				"type": "string",
-				"defaultValue": "No Value"
-			},
-			"sourceBaseURL": {
-				"type": "string"
-			}
-		},
 		"folder": {
 			"name": "ECDC"
 		},
