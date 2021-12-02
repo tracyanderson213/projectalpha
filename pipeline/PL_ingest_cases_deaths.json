@@ -1,6 +1,7 @@
 {
 	"name": "PL_ingest_cases_deaths",
 	"properties": {
+		"description": "Uses a variable in Copy data to process a specific file",
 		"activities": [
 			{
 				"name": "Copy Cases and Deaths Data",
