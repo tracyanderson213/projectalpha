@@ -4,7 +4,7 @@
 		"description": "Uses passed parameters from a trigger to   process a specific file",
 		"activities": [
 			{
-				"name": "Copy Cases and Deaths Data",
+				"name": "Copy ECDC Data",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
