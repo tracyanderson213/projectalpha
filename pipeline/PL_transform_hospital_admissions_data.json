@@ -1,5 +1,5 @@
 {
-	"name": "PL_transform_hospital_data",
+	"name": "PL_transform_hospital_admissions_data",
 	"properties": {
 		"activities": [
 			{
