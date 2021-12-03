@@ -16,7 +16,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"dataflow": {
-						"referenceName": "DF_process_hospital_admissions",
+						"referenceName": "DF_transform_hospital_admissions",
 						"type": "DataFlowReference"
 					},
 					"compute": {
@@ -28,7 +28,7 @@
 			}
 		],
 		"folder": {
-			"name": "ECDC_DF"
+			"name": "ECDC_Transform"
 		},
 		"annotations": []
 	}

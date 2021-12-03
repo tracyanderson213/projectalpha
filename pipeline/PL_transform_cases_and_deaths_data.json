@@ -1,5 +1,5 @@
 {
-	"name": "PL_process_cases_and_deaths_data",
+	"name": "PL_transform_cases_and_deaths_data",
 	"properties": {
 		"activities": [
 			{
@@ -28,7 +28,7 @@
 			}
 		],
 		"folder": {
-			"name": "ECDC_DF"
+			"name": "ECDC_Transform"
 		},
 		"annotations": []
 	}

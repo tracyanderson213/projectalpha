@@ -1,5 +1,5 @@
 {
-	"name": "DF_process_hospital_admissions",
+	"name": "DF_transform_hospital_admissions",
 	"properties": {
 		"type": "MappingDataFlow",
 		"typeProperties": {
