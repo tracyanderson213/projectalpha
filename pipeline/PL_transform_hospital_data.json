@@ -1,0 +1,9 @@
+{
+	"name": "PL_transform_hospital_data",
+	"properties": {
+		"folder": {
+			"name": "ECDC_DF"
+		},
+		"annotations": []
+	}
+}
