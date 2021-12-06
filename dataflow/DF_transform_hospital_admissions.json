@@ -20,7 +20,7 @@
 				},
 				{
 					"dataset": {
-						"referenceName": "DelimitedText1",
+						"referenceName": "DS_dim_date_lookup",
 						"type": "DatasetReference"
 					},
 					"name": "DateLookup"

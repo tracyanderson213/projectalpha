@@ -1,5 +1,5 @@
 {
-	"name": "DelimitedText1",
+	"name": "DS_dim_date_lookup",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "LS_AzureDataLakeStorage_Dev",
@@ -11,6 +11,7 @@
 			"location": {
 				"type": "AzureBlobFSLocation",
 				"fileName": "dim_date.csv",
+				"folderPath": "dim_date",
 				"fileSystem": "lookup"
 			},
 			"columnDelimiter": ",",
