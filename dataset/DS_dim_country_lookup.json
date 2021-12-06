@@ -1,5 +1,5 @@
 {
-	"name": "DS_CountryCodeLookup",
+	"name": "DS_dim_country_lookup",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "LS_AzureDataLakeStorage_Dev",

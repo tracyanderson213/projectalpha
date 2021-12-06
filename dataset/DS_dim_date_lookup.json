@@ -5,6 +5,9 @@
 			"referenceName": "LS_AzureDataLakeStorage_Dev",
 			"type": "LinkedServiceReference"
 		},
+		"folder": {
+			"name": "ECDC"
+		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
